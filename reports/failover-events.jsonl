@@ -1,0 +1,5 @@
+{"ts": 1791551709.0798073, "iso": "2026-10-09T13:15:09", "step": "1_verify_target", "target": "b", "state": {"region": "b", "pool_state": "warm", "weights": false, "count": 0, "latest_doc_ts": null, "ts": 1791551709.079311}}
+{"ts": 1791551709.0821548, "iso": "2026-10-09T13:15:09", "step": "2_restore_snapshot", "target": "b", "primary_latest_doc_ts": 1791551708.6324093, "restored_latest_doc_ts": 1791551686.6298969, "rpo_seconds": 22.0, "docs_lost": 11, "embed_model_version": "embed-model=vi-e5-base@v3", "snapshot_at": 1791551686.632134, "restore_s": 0.002251412000077835}
+{"ts": 1791551709.0823052, "iso": "2026-10-09T13:15:09", "step": "3_scale_pool", "target": "b", "pool_state": "full"}
+{"ts": 1791551715.1871338, "iso": "2026-10-09T13:15:15", "step": "4_wait_ready", "target": "b", "ok": true, "waited_s": 6.10477234699988}
+{"ts": 1791551715.1922104, "iso": "2026-10-09T13:15:15", "step": "5_dns_cutover", "target": "b", "ok": true}
